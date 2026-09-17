@@ -1,9 +1,14 @@
 CAMERA_INDEX = 0
-CONFIDENCE_THRESHOLD = 0.5
+DETECTION_CONFIDENCE = 0.6
+TRACKING_CONFIDENCE = 0.6
+
+COOLDOWN = 1.0
 
 GESTURES = [
-    "thumbs_up",
-    "thumbs_down",
-    "fist",
-    "open_palm"
+    "THUMBS UP",
+    "THUMBS DOWN",
+    "TWO FINGERS",
+    "FIST",
+    "ONE FINGER",
+    "OPEN PALM"
 ]
